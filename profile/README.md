@@ -4,7 +4,21 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:7c3aed&height=180&section=header&text=Mobadratna%20Organization&fontSize=40&fontColor=ffffff&fontFamily=Outfit" width="100%" />
 </div>
 
-منصة **مبادرتنا** هي منصة برمجية متكاملة ومفتوحة المصدر تهدف إلى تنظيم وتسهيل الأنشطة الطلابية ومشاريع التخرج الجامعية، وتمكين الطلاب من التطوع وإيجاد الفعاليات المناسبة لهم بكل سهولة.
+منصة **مبادرتنا** هي بيئة عمل برمجية متكاملة ومفتوحة المصدر لربط ومساندة المبادرات الطلابية والمشاريع الجامعية بالتطوع الطلابي الفعال. تهدف المنصة لتسهيل عمليات التقديم والقبول وإصدار الإحصائيات الإدارية لمسؤولي الأنشطة.
+
+**Mobadratna** is an integrated open-source software ecosystem designed to organize, track, and empower student initiatives and graduation projects through voluntary support. The platform facilitates registrations, volunteer matches, and administrative analytics dashboards.
+
+---
+
+## 🧬 النظام البيئي للمنصة | Ecosystem Architecture
+
+يتكون النظام من مستودعين رئيسيين يتكاملان لتوفير بيئة عمل آمنة وسلسة للطلاب والإداريين:
+
+```mermaid
+graph LR
+    Portal[mobadratna-student-portal<br/>Static Frontend Portal Client] -->|REST HTTP Requests| API[mobadratna-core-engine<br/>PHP REST API Backend Engine]
+    API -->|PDO Connection| DB[(MySQL Database)]
+```
 
 ---
 
@@ -18,11 +32,10 @@
 ---
 
 ## 🛠️ التقنيات الأساسية (Core Tech Stack)
-*   **Frontend**: HTML5, CSS3 Variables, Vanilla JavaScript DOM API, Cairo Typography.
-*   **Backend & DB**: Raw PHP, MySQL, PDO Database Protection, HTTP Sessions Security.
+*   **Frontend**: Semantic HTML5, Responsive CSS3 Grid/Flexbox, Cairo Web Fonts, Vanilla JS DOM controllers.
+*   **Backend & DB**: Clean Raw PHP 8.x routing handlers, PDO Connection protection, custom Session handlers, MySQL relational storage.
 
 ---
 
 ## 👥 فريق العمل والمساهمون (Contributors)
-*   **سيد حرز الله** - Lead Software Architect & Backend Developer.
-*   نشكر كافة الجهود الطلابية المساهمة في تطوير المنصة.
+*   **سيد حرز الله** - Lead Software Architect & Systems Developer.
