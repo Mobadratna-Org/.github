@@ -26,8 +26,8 @@ graph LR
 
 | المستودع (Repository) | النوع | الوصف (Description) | الشارات التقنية (Tech Badges) |
 | :--- | :--- | :--- | :--- |
-| 💻 **[mobadratna-student-portal](https://github.com/Mobadratna-Org/mobadratna-student-portal)** | Frontend | البوابة الإلكترونية التفاعلية المخصصة للطلاب واستعراض الأنشطة والتقديم للتطوع. | ![HTML5](https://img.shields.io/badge/HTML5-Structure-orange?logo=html5&style=flat-square) ![CSS3](https://img.shields.io/badge/CSS3-Design-blue?logo=css3&style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&style=flat-square) |
-| ⚙️ **[mobadratna-core-engine](https://github.com/Mobadratna-Org/mobadratna-core-engine)** | Backend | محرك خادم البيانات المبني بلغة PHP والمسؤول عن الأمان وإدارة الجلسات وقبول طلبات الطلاب. | ![PHP](https://img.shields.io/badge/PHP-v8-blue?logo=php&style=flat-square) ![MySQL](https://img.shields.io/badge/MySQL-v8-blue?logo=mysql&style=flat-square) |
+| 💻 **[mobadratna-student-portal](https://github.com/Mobadratna-Org/mobadratna-student-portal)** | Frontend | البوابة الإلكترونية التفاعلية المخصصة للطلاب واستعراض الأنشطة والتقديم للتطوع. | <img src="https://img.shields.io/badge/HTML5-Structure-orange?logo=html5&style=flat-square" alt="HTML5" /> <img src="https://img.shields.io/badge/CSS3-Design-blue?logo=css3&style=flat-square" alt="CSS3" /> <img src="https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&style=flat-square" alt="JavaScript" /> |
+| ⚙️ **[mobadratna-core-engine](https://github.com/Mobadratna-Org/mobadratna-core-engine)** | Backend | محرك خادم البيانات المبني بلغة PHP والمسؤول عن الأمان وإدارة الجلسات وقبول طلبات الطلاب. | <img src="https://img.shields.io/badge/PHP-v8-blue?logo=php&style=flat-square" alt="PHP" /> <img src="https://img.shields.io/badge/MySQL-v8-blue?logo=mysql&style=flat-square" alt="MySQL" /> |
 
 ---
 
